@@ -8,8 +8,10 @@ $paragrafo_censurato = str_replace($parola,'***',$paragrafo);
 
 ?>
 
-<h1>Paragrafo</h1>
+<h2>Paragrafo con la sua lunghezza</h2>
 
-<p> <?php echo $paragrafo ?> e <?php echo strlen($paragrafo) ?> </p>
+<p> <?php echo $paragrafo ?> , lunghezza: <?php echo strlen($paragrafo) ?> </p>
 
-<p> <?php echo $paragrafo_censurato ?> e <?php echo strlen($paragrafo_censurato) ?></p>
+<h2>Paragrafo censurato con la sua lunghezza</h2>
+
+<p> <?php echo $paragrafo_censurato ?> , lunghezza: <?php echo strlen($paragrafo_censurato) ?></p>
